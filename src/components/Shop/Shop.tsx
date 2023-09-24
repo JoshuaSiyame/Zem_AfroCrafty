@@ -1,10 +1,13 @@
 import React from 'react';
-import "./Shop.css"
+import "./Shop.css";
 
 const Shop = () => {
   return (
-    <div>Shop</div>
-  )
-}
+    <div id="shop">
+      <div id='shop-container'>
+      </div>
+    </div>
+  );
+};
 
-export default Shop
+export default Shop;
