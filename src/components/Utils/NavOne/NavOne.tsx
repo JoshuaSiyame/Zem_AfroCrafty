@@ -3,7 +3,11 @@ import "./NavOne.css";
 
 const NavOne = () => {
     return (
-        <div>NavOne</div>
+        <div id='nav-one'>
+            <div id='nav-one-container'>
+                <h4 id='nav-one-header'>Home of Remarkable Legacies</h4>
+            </div>
+        </div>
     );
 };
 
