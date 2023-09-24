@@ -1,0 +1,15 @@
+/* General app features */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* App structure */
+#app-structure{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+

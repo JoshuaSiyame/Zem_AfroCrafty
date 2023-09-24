@@ -1,0 +1,25 @@
+/* General footer styles */
+#footer{
+    margin-top: auto;
+    background-color: #415C61;
+    padding: 1.5em 0;
+}
+
+/* footer header */
+.footer-h{
+    color: #e5e5e5;
+    font-size: 14px;
+    text-align: center;
+    margin: .25em 0;
+    font-weight: 400;
+    font-style: italic;
+    font-family: papyrus;
+}
+
+/* footer h1 */
+#footer-h1{}
+
+/* footer h2 */
+#footer-h2{
+    letter-spacing: 2px;
+}
