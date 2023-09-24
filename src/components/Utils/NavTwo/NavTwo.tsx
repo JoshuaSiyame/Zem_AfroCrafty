@@ -27,14 +27,17 @@ const NavTwo = () => {
               <NavLink to="/shop" className="main-nav-1-item-link">Shop</NavLink>
             </li>
             <li className='main-nav-1-item'>
+              <NavLink to="/create-product" className="main-nav-1-item-link">Add Product</NavLink>
+            </li>
+            <li className='main-nav-1-item'>
               <NavLink to="/blog" className="main-nav-1-item-link" id='last-left'>Blog</NavLink>
             </li>
           </ol>
           <ol id='main-nav-1-icons'>
             <li className='main-nav-1-item'>
               <NavLink to="/likes" className="main-nav-1-item-link">
-                <FcLike className='nav-icon' id='like-icon' />
-                {/* <FcLikePlaceholder className='nav-icon' id='shadow-like' /> */}
+                {/* <FcLike className='nav-icon' id='like-icon' /> */}
+                <FcLikePlaceholder className='nav-icon' id='shadow-like' />
               </NavLink>
             </li>
             <li className='main-nav-1-item'>
@@ -55,9 +58,9 @@ const NavTwo = () => {
           <li className='main-nav-2-item'>
             <NavLink to="/" className="main-nav-2-item-link">Shop</NavLink>
           </li>
-          <li className='main-nav-2-item'>
+          {/* <li className='main-nav-2-item'>
             <NavLink to="/create-product" className="main-nav-2-item-link">Create Product</NavLink>
-          </li>
+          </li> */}
           <li className='main-nav-2-item'>
             <NavLink to="/products/women" className="main-nav-2-item-link">Women</NavLink>
           </li>
