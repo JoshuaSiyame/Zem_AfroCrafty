@@ -1,6 +1,11 @@
 import React from 'react';
 import "./Shop.css";
 
+// import images
+import HB1 from "./hand_bag_1.png";
+import HB2 from "./hand_bag_2.jpg";
+import NO from "./natural_oil.jpg";
+
 const Shop = () => {
   return (
     <div id="shop">
@@ -17,6 +22,58 @@ const Shop = () => {
             </select>
           </li>
         </ol>
+        <div id='shop-items'>
+          <div id='' className='item-card'>
+            <img src={HB1} alt='' className='item-img' />
+            <h3 className='item-name'><small>Item name</small></h3>
+            <p className='item-price'><small>Tz: 2500/=</small></p>
+          </div>          
+          <div id='' className='item-card'>
+            <img src={NO} alt='' className='item-img' />
+            <h3 className='item-name'><small>Item name</small></h3>
+            <p className='item-price'><small>Tz: 2500/=</small></p>
+          </div>
+          <div id='' className='item-card'>
+            <img src={HB1} alt='' className='item-img' />
+            <h3 className='item-name'><small>Item name</small></h3>
+            <p className='item-price'><small>Tz: 2500/=</small></p>
+          </div>
+          <div id='' className='item-card'>
+            <img src={NO} alt='' className='item-img' />
+            <h3 className='item-name'><small>Item name</small></h3>
+            <p className='item-price'><small>Tz: 2500/=</small></p>
+          </div>
+          <div id='' className='item-card'>
+            <img src={HB1} alt='' className='item-img' />
+            <h3 className='item-name'><small>Item name</small></h3>
+            <p className='item-price'><small>Tz: 2500/=</small></p>
+          </div>
+          <div id='' className='item-card'>
+            <img src={NO} alt='' className='item-img' />
+            <h3 className='item-name'><small>Item name</small></h3>
+            <p className='item-price'><small>Tz: 2500/=</small></p>
+          </div>
+          <div id='' className='item-card'>
+            <img src={HB1} alt='' className='item-img' />
+            <h3 className='item-name'><small>Item name</small></h3>
+            <p className='item-price'><small>Tz: 2500/=</small></p>
+          </div>
+          <div id='' className='item-card'>
+            <img src={NO} alt='' className='item-img' />
+            <h3 className='item-name'><small>Item name</small></h3>
+            <p className='item-price'><small>Tz: 2500/=</small></p>
+          </div>
+          <div id='' className='item-card'>
+            <img src={HB1} alt='' className='item-img' />
+            <h3 className='item-name'><small>Item name</small></h3>
+            <p className='item-price'><small>Tz: 2500/=</small></p>
+          </div>
+          <div id='' className='item-card'>
+            <img src={NO} alt='' className='item-img' />
+            <h3 className='item-name'><small>Item name</small></h3>
+            <p className='item-price'><small>Tz: 2500/=</small></p>
+          </div>
+        </div>
       </div>
     </div>
   );
