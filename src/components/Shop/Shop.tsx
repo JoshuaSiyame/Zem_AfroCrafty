@@ -12,8 +12,8 @@ const Shop = () => {
               <option value="">Sort By:</option>
               <option value="latest">Latest</option>
               <option value="old">Old</option>
-              <option value="priceLowHigh"><small>Low-High Price</small></option>
-              <option value="priceHighLow"><small>High-Low Price</small></option>
+              <option value="priceLowHigh"><small>Low - High Price</small></option>
+              <option value="priceHighLow"><small>High - Low Price</small></option>
             </select>
           </li>
         </ol>
