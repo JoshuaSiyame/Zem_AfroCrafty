@@ -1,0 +1,274 @@
+/* General Blog styles */
+#blog {}
+
+/* blog container */
+#blog-container {
+    max-width: 700px;
+    /* border: 2px solid salmon; */
+    margin: 0 auto 3em auto;
+}
+
+/* blog header */
+#blog-header {
+    font-weight: 500;
+    color: #415C61;
+}
+
+/* blog posts */
+#blog-posts {}
+
+/* blog post */
+.blog-post {
+    margin: .5em 0;
+    border: 2px solid #64898C;
+    border-radius: 3px;
+    padding: .5em;
+}
+
+/* blog post header */
+.blog-post-header {
+    font-weight: 500;
+}
+
+.blog-post-header:hover{
+    color: #415C61;
+    cursor: pointer;
+}
+
+/* blog post date */
+.blog-post-date {
+    margin: .25em 0;
+}
+
+/* blog post brief */
+.blog-post-brief {
+    font-size: 14px;
+}
+
+/* blog post data */
+.blog-post-data {}
+
+/* blog post text */
+.blog-post-text {
+    font-size: 14px;
+}
+
+/* blog post notice */
+#blog-post-notice{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #64898C;
+    margin: 2em 0 0 0;
+}
+
+/* media queries */
+@media screen and (max-width: 320px) {
+    #blog {}
+
+    /* blog container */
+    #blog-container {
+        padding: .8em .8em;
+    }
+
+    /* blog header */
+    #blog-header {
+        font-size: 22px;
+    }
+
+    /* blog posts */
+    #blog-posts {}
+
+    /* blog post */
+    .blog-post {}
+
+    /* blog post header */
+    .blog-post-header {
+        font-size: 14px;
+    }
+
+    /* blog post date */
+    .blog-post-date {}
+
+    /* blog post brief */
+    .blog-post-brief {}
+
+    /* blog post data */
+    .blog-post-data {}
+
+    /* blog post text */
+    .blog-post-text {}
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    #blog {}
+
+    /* blog container */
+    #blog-container {
+        padding: .8em .8em;
+    }
+
+    /* blog header */
+    #blog-header {
+        font-size: 24px;
+    }
+
+    /* blog posts */
+    #blog-posts {}
+
+    /* blog post */
+    .blog-post {}
+
+    /* blog post header */
+    .blog-post-header {
+        font-size: 14.25px;
+    }
+
+    /* blog post date */
+    .blog-post-date {}
+
+    /* blog post brief */
+    .blog-post-brief {}
+
+    /* blog post data */
+    .blog-post-data {}
+
+    /* blog post text */
+    .blog-post-text {}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #blog {}
+
+    /* blog container */
+    #blog-container {
+        padding: 1em 1em;
+    }
+
+    /* blog header */
+    #blog-header {}
+
+    /* blog posts */
+    #blog-posts {}
+
+    /* blog post */
+    .blog-post {}
+
+    /* blog post header */
+    .blog-post-header {
+        font-size: 14.5px;
+    }
+
+    /* blog post date */
+    .blog-post-date {}
+
+    /* blog post brief */
+    .blog-post-brief {}
+
+    /* blog post data */
+    .blog-post-data {}
+
+    /* blog post text */
+    .blog-post-text {}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #blog {}
+
+    /* blog container */
+    #blog-container {}
+
+    /* blog header */
+    #blog-header {}
+
+    /* blog posts */
+    #blog-posts {}
+
+    /* blog post */
+    .blog-post {}
+
+    /* blog post header */
+    .blog-post-header {
+        font-size: 15.25px;
+    }
+
+    /* blog post date */
+    .blog-post-date {}
+
+    /* blog post brief */
+    .blog-post-brief {}
+
+    /* blog post data */
+    .blog-post-data {}
+
+    /* blog post text */
+    .blog-post-text {}
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    #blog {}
+
+    /* blog container */
+    #blog-container {}
+
+    /* blog header */
+    #blog-header {}
+
+    /* blog posts */
+    #blog-posts {}
+
+    /* blog post */
+    .blog-post {}
+
+    /* blog post header */
+    .blog-post-header {
+        font-size: 15.25px;
+    }
+
+    /* blog post date */
+    .blog-post-date {}
+
+    /* blog post brief */
+    .blog-post-brief {}
+
+    /* blog post data */
+    .blog-post-data {}
+
+    /* blog post text */
+    .blog-post-text {}
+}
+
+@media screen and (min-width: 1201px) {
+    #blog {}
+
+    /* blog container */
+    #blog-container {}
+
+    /* blog header */
+    #blog-header {
+        font-size: 28px;
+    }
+
+    /* blog posts */
+    #blog-posts {}
+
+    /* blog post */
+    .blog-post {}
+
+    /* blog post header */
+    .blog-post-header {
+        font-size: 15.5px;
+    }
+
+    /* blog post date */
+    .blog-post-date {}
+
+    /* blog post brief */
+    .blog-post-brief {}
+
+    /* blog post data */
+    .blog-post-data {}
+
+    /* blog post text */
+    .blog-post-text {}
+}

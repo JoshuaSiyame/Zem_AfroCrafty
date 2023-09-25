@@ -21,7 +21,7 @@ const NavTwo = () => {
           </NavLink>
           <ol id='main-nav-1'>
             <li className='main-nav-1-item'>
-              <NavLink to="/home" className="main-nav-1-item-link">Home</NavLink>
+              <NavLink to="/" className="main-nav-1-item-link">Home</NavLink>
             </li>
             <li className='main-nav-1-item'>
               <NavLink to="/shop" className="main-nav-1-item-link">Shop</NavLink>
