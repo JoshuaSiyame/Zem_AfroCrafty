@@ -6,19 +6,71 @@
 /* shop container */
 #shop-container{}
 
+/* shop info list */
+#shop-info-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* shop info list item */
+.shop-info-list-item{
+    list-style: none;
+    font-size: 14px;
+}
+
 
 /* Media queries */
 @media screen and (max-width: 320px) {
+    #shop{}
     
+    /* shop container */
+    #shop-container{
+        padding: .6em .6em;
+    }
 }
 
-@media (min-width: 321px) and (max-width: 480px) {}
+@media (min-width: 321px) and (max-width: 480px) {
+    #shop{}
+    
+    /* shop container */
+    #shop-container{
+        padding: .8em .8em;
+    }
+}
 
-@media (min-width: 481px) and (max-width: 768px) {}
+@media (min-width: 481px) and (max-width: 768px) {
+    #shop{}
+    
+    /* shop container */
+    #shop-container{
+        padding: 1em 1em;
+    }
+}
 
-@media (min-width: 769px) and (max-width: 1024px) {}
+@media (min-width: 769px) and (max-width: 1024px) {
+    #shop{}
+    
+    /* shop container */
+    #shop-container{
+        padding: 1em 2em;
+    }
+}
 
-@media (min-width: 1025px) and (max-width: 1200px) {}
+@media (min-width: 1025px) and (max-width: 1200px) {
+    #shop{}
+    
+    /* shop container */
+    #shop-container{
+        padding: 1em 2em;
+    }
+}
 
-@media screen and (min-width: 1201px) {}
+@media screen and (min-width: 1201px) {
+    #shop{}
+    
+    /* shop container */
+    #shop-container{
+        padding: 1em 2em;
+    }
+}
 
