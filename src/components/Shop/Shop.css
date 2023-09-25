@@ -1,76 +1,193 @@
 /* General Shop styles */
-#shop{
+#shop {
     color: #415C61;
 }
 
 /* shop container */
-#shop-container{}
+#shop-container {}
 
 /* shop info list */
-#shop-info-list{
+#shop-info-list {
     display: flex;
     justify-content: space-between;
 }
 
 /* shop info list item */
-.shop-info-list-item{
+.shop-info-list-item {
     list-style: none;
     font-size: 14px;
+}
+
+/* shop item */
+#shop-items {
+    margin: .5em 0;
+}
+
+/* item card */
+.item-card {
+    border: 1px solid #415C61;
+    border-radius: 3px;
+    padding: .25em;
+    max-width: fit-content;
+}
+
+/* item-img */
+.item-img {
+    display: block;
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
 }
 
 
 /* Media queries */
 @media screen and (max-width: 320px) {
-    #shop{}
-    
+    #shop {}
+
     /* shop container */
-    #shop-container{
+    #shop-container {
         padding: .6em .6em;
+    }
+
+    /* shop info list */
+    #shop-info-list {}
+
+    /* shop info list item */
+    .shop-info-list-item {}
+
+    /* shop items */
+    #shop-items {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: space-between;
+        row-gap: 1em;
+    }
+
+    /* item card */
+    .item-card {}
+
+    /* item-img */
+    .item-img {
+        max-width: 130px;
     }
 }
 
 @media (min-width: 321px) and (max-width: 480px) {
-    #shop{}
-    
+    #shop {}
+
     /* shop container */
-    #shop-container{
+    #shop-container {
         padding: .8em .8em;
     }
+
+    /* shop info list */
+    #shop-info-list {}
+
+    /* shop info list item */
+    .shop-info-list-item {}
+
+    /* shop items */
+    #shop-items {}
+
+    /* item card */
+    .item-card {}
+
+    /* item-img */
+    .item-img {}
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-    #shop{}
-    
+    #shop {}
+
     /* shop container */
-    #shop-container{
+    #shop-container {
         padding: 1em 1em;
     }
+
+    /* shop info list */
+    #shop-info-list {}
+
+    /* shop info list item */
+    .shop-info-list-item {}
+
+    /* shop items */
+    #shop-items {}
+
+    /* item card */
+    .item-card {}
+
+    /* item-img */
+    .item-img {}
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-    #shop{}
-    
+    #shop {}
+
     /* shop container */
-    #shop-container{
+    #shop-container {
         padding: 1em 2em;
     }
+
+    /* shop info list */
+    #shop-info-list {}
+
+    /* shop info list item */
+    .shop-info-list-item {}
+
+    /* shop items */
+    #shop-items {}
+
+    /* item card */
+    .item-card {}
+
+    /* item-img */
+    .item-img {}
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
-    #shop{}
-    
+    #shop {}
+
     /* shop container */
-    #shop-container{
+    #shop-container {
         padding: 1em 2em;
     }
+
+    /* shop info list */
+    #shop-info-list {}
+
+    /* shop info list item */
+    .shop-info-list-item {}
+
+    /* shop items */
+    #shop-items {}
+
+    /* item card */
+    .item-card {}
+
+    /* item-img */
+    .item-img {}
 }
 
 @media screen and (min-width: 1201px) {
-    #shop{}
-    
+    #shop {}
+
     /* shop container */
-    #shop-container{
+    #shop-container {
         padding: 1em 2em;
     }
-}
 
+    /* shop info list */
+    #shop-info-list {}
+
+    /* shop info list item */
+    .shop-info-list-item {}
+
+    /* shop items */
+    #shop-items {}
+
+    /* item card */
+    .item-card {}
+
+    /* item-img */
+    .item-img {}
+}
