@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
 import "./NavTwo.css";
 
@@ -9,9 +9,43 @@ import Logo from "./Logo.png";
 import { FcLike, FcLikePlaceholder } from "react-icons/fc";
 import { BsCart3 } from "react-icons/bs";
 import { CgProfile } from "react-icons/cg";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
+
+// import component
+import DropMenu from '../DropMenu/DropMenu';
 
 const NavTwo = () => {
+
+  // change/hide hamburger icon on click and display menu
+  const handleHamburgerIcon = () =>{
+    // get the icon by id
+    const hamburgerIcon:any = document.getElementById("hamburger-icon");
+    hamburgerIcon.style.display = "none";
+
+    // display block the close button
+    const closeIcon:any = document.getElementById("close-icon");
+    closeIcon.style.display = "block"
+
+    // display the dropdown list menu
+    const dropDownMenu:any = document.getElementById("drop-menu");
+    dropDownMenu.style.display = "block"
+  }
+
+  // change/hide close icon on click and remove the menu
+  const handleCloseIcon = () =>{
+    // get the icon by id
+    const closeIcon:any = document.getElementById("close-icon");
+    closeIcon.style.display = "none";
+
+    // display block the hamburger icon
+    const hamburgerIcon:any = document.getElementById("hamburger-icon");
+    hamburgerIcon.style.display = "block";
+
+    // hide the dropdown list menu
+    const dropDownMenu:any = document.getElementById("drop-menu");
+    dropDownMenu.style.display = "none";
+  }
+
   return (
     <div id='nav-two'>
       <div id="nav-two-container">
@@ -51,8 +85,10 @@ const NavTwo = () => {
               </NavLink>
             </li>
           </ol>
-          <FaBars className="nav-icon" id="hamburger-icon" />
+          <FaTimes className='nav-icon' id='close-icon' onClick={handleCloseIcon}/>
+          <FaBars className="nav-icon" id="hamburger-icon" onClick={handleHamburgerIcon} />
         </div>
+        <DropMenu />
         <h2 id='site-name'>Zem Afrocrafty</h2>
         <ol id='main-nav-2'>
           <li className='main-nav-2-item'>
