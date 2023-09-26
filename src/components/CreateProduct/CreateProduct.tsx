@@ -5,12 +5,18 @@ import "./CreateProduct.css";
 import II from "./hand_bag_1.png";
 
 const CreateProduct = () => {
+
+  // prevent default form behavior
+  const handleFormSubmit = (e: any) =>{
+    e.preventDefault();
+  };
+
   return (
     <div id="add-item">
       <div id="add-item-container">
         <div id="add-item-form-container">
           <h3 id="add-item-header">Add New Item</h3>
-          <form id="add-item-form">
+          <form id="add-item-form" onSubmit={handleFormSubmit}>
             <div className="form-group-1">
               <label className="label-control">Item Name:</label>
               <input type="text" name="item-name" placeholder="New item full name" className="form-control" />
