@@ -26,7 +26,7 @@ const App = () => {
     return (
         <div id='app-structure'>
             <BrowserRouter>
-                <NavOne />
+                <NavOne />                
                 <NavTwo />
                 <Routes>
                     <Route path='/blog' element={<Blog />} />

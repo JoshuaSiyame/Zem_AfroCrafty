@@ -1,0 +1,148 @@
+/* General Drop menu styles */
+#drop-menu {
+    background-color: #64898C;
+    display: none;
+}
+
+/* drop menu container */
+#drop-menu-container {
+    padding: 2em;
+    position: relative;
+}
+
+/* drop menu list */
+#drop-menu-list {}
+
+/* drop menu list item */
+.drop-menu-list-item {
+    list-style: none;
+    text-align: center;
+}
+
+/* drop menu list item link */
+.drop-menu-list-item-link {
+    display: block;
+    padding: .5em 0;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* close icon */
+#close-icon {
+    display: none;
+}
+
+/* media queries */
+@media screen and (max-width: 320px) {
+    #drop-menu {}
+
+    /* drop menu container */
+    #drop-menu-container {}
+
+    /* drop menu list */
+    #drop-menu-list {}
+
+    /* drop menu list item */
+    .drop-menu-list-item {}
+
+    /* drop menu list item link */
+    .drop-menu-list-item-link {}
+
+    /* close icon */
+    #close-icon {}
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    #drop-menu {}
+
+    /* drop menu container */
+    #drop-menu-container {}
+
+    /* drop menu list */
+    #drop-menu-list {}
+
+    /* drop menu list item */
+    .drop-menu-list-item {}
+
+    /* drop menu list item link */
+    .drop-menu-list-item-link {}
+
+    /* close icon */
+    #close-icon {}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #drop-menu {}
+
+    /* drop menu container */
+    #drop-menu-container {}
+
+    /* drop menu list */
+    #drop-menu-list {}
+
+    /* drop menu list item */
+    .drop-menu-list-item {}
+
+    /* drop menu list item link */
+    .drop-menu-list-item-link {}
+
+    /* close icon */
+    #close-icon {}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #drop-menu {}
+
+    /* drop menu container */
+    #drop-menu-container {}
+
+    /* drop menu list */
+    #drop-menu-list {}
+
+    /* drop menu list item */
+    .drop-menu-list-item {}
+
+    /* drop menu list item link */
+    .drop-menu-list-item-link {}
+
+    /* close icon */
+    #close-icon {}
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    #drop-menu {}
+
+    /* drop menu container */
+    #drop-menu-container {}
+
+    /* drop menu list */
+    #drop-menu-list {}
+
+    /* drop menu list item */
+    .drop-menu-list-item {}
+
+    /* drop menu list item link */
+    .drop-menu-list-item-link {}
+
+    /* close icon */
+    #close-icon {}
+}
+
+@media screen and (max-width: 1201px) {
+    #drop-menu {}
+
+    /* drop menu container */
+    #drop-menu-container {}
+
+    /* drop menu list */
+    #drop-menu-list {}
+
+    /* drop menu list item */
+    .drop-menu-list-item {}
+
+    /* drop menu list item link */
+    .drop-menu-list-item-link {}
+
+    /* close icon */
+    #close-icon {}
+}
