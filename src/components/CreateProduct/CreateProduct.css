@@ -1,0 +1,299 @@
+/* General Create product/Add item styles */
+#add-item {}
+
+/* add item container */
+#add-item-container {}
+
+/* add item form container */
+#add-item-form-container {}
+
+/* Add item header */
+#add-item-header {
+    font-weight: 500;
+    color: #415C61;
+    text-align: center;
+}
+
+/* add item form */
+#add-item-form {
+    /* border: 1px solid #64898C; */
+    border-radius: 3px;
+    padding: .5em;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+/* form group 1 */
+.form-group-1 {
+    display: grid;
+    margin-bottom: .5em;
+}
+
+/* form group 2 */
+.form-group-2 {}
+
+/* label control */
+.label-control {
+    font-weight: 500;
+    color: #415C61;
+    margin-bottom: .25em;
+    font-size: 14px;
+}
+
+/* form control */
+.form-control {
+    padding: .4em .5em;
+    border: 1px solid #64898C;
+    border-radius: 3px;
+}
+
+/* image preview header */
+#image-preview-header {
+    text-align: center;
+}
+
+/* Item image preview */
+.img-preview {
+    display: block;
+    width: 100%;
+    padding: .5em;
+}
+
+/* btn-primary */
+.primary-btn {
+    padding: .4em .5em;
+    font-size: 14px;
+    border: 1px solid #64898C;
+    border-radius: 3px;
+}
+
+.primary-btn:hover{
+    color: whitesmoke;
+    background-color: #64898C;
+}
+
+/* Media queries */
+@media screen and (max-width: 320px) {
+    #add-item {}
+
+    /* add item container */
+    #add-item-container {
+        padding: .6em .6em;
+    }
+
+    /* add item form container */
+    #add-item-form-container {}
+
+    /* Add item header */
+    #add-item-header {
+        font-size: 14px;
+    }
+
+    /* add item form */
+    #add-item-form {}
+
+    /* form group 1 */
+    .form-group-1 {}
+
+    /* form group 2 */
+    .form-group-2 {}
+
+    /* label control */
+    .label-control {}
+
+    /* form control */
+    .form-control {}
+
+    /* btn-primary */
+    .primary-btn {}
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    #add-item {}
+
+    /* add item container */
+    #add-item-container {
+        padding: .8em .8em;
+    }
+
+    /* add item form container */
+    #add-item-form-container {}
+
+    /* Add item header */
+    #add-item-header {
+        font-size: 14.25px;
+    }
+
+    /* form group 1 */
+    .form-group-1 {}
+
+    /* form group 2 */
+    .form-group-2 {}
+
+    /* label control */
+    .label-control {}
+
+    /* form control */
+    .form-control {}
+
+    /* btn-primary */
+    .primary-btn {}
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #add-item {}
+
+    /* add item container */
+    #add-item-container {
+        padding: 1em 1em;
+    }
+
+    /* add item form container */
+    #add-item-form-container {}
+
+    /* Add item header */
+    #add-item-header {
+        font-size: 14.5px;
+    }
+
+    /* form group 1 */
+    .form-group-1 {}
+
+    /* form group 2 */
+    .form-group-2 {}
+
+    /* label control */
+    .label-control {}
+
+    /* form control */
+    .form-control {}
+
+    /* btn-primary */
+    .primary-btn {}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #add-item {}
+
+    /* add item container */
+    #add-item-container {
+        padding: 1em 2em;
+    }
+
+    /* add item form container */
+    #add-item-form-container {}
+
+    /* Add item header */
+    #add-item-header {
+        font-size: 15.25px;
+    }
+
+    /* form group 1 */
+    .form-group-1 {}
+
+    /* form group 2 */
+    .form-group-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        column-gap: 1em;
+    }
+
+    /* label control */
+    .label-control {}
+
+    /* form control */
+    .form-control {}
+
+    /* item image button */
+    #item-img-button {
+        height: 30px;
+    }
+
+    /* btn-primary */
+    .primary-btn {}
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    #add-item {}
+
+    /* add item container */
+    #add-item-container {
+        padding: 1em 2em;
+    }
+
+    /* add item form container */
+    #add-item-form-container {}
+
+    /* Add item header */
+    #add-item-header {
+        font-size: 15.25px;
+    }
+
+    /* form group 1 */
+    .form-group-1 {}
+
+    /* form group 2 */
+    .form-group-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        column-gap: 1em;
+    }
+
+    /* label control */
+    .label-control {}
+
+    /* form control */
+    .form-control {}
+
+    /* item image button */
+    #item-img-button {
+        height: 30px;
+    }
+
+    /* btn-primary */
+    .primary-btn {}
+}
+
+@media screen and (min-width: 1201px) {
+    #add-item {}
+
+    /* add item container */
+    #add-item-container {
+        padding: 1em 2em;
+    }
+
+    /* add item form container */
+    #add-item-form-container {}
+
+    /* Add item header */
+    #add-item-header {
+        font-size: 15.5px;
+    }
+
+    /* form group 1 */
+    .form-group-1 {}
+
+    /* form group 2 */
+    .form-group-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        column-gap: 1em;
+    }
+
+    /* label control */
+    .label-control {}
+
+    /* form control */
+    .form-control {}
+
+    /* item image button */
+    #item-img-button {
+        height: 30px;
+    }
+
+    /* btn-primary */
+    .primary-btn {}
+}
