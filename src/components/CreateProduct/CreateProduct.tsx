@@ -1,15 +1,35 @@
 import React from "react";
 import "./CreateProduct.css";
 
-// import image sample
-import II from "./hand_bag_1.png";
+// import image sample for preview
+// import II from "./hand_bag_1.png";
 
 const CreateProduct = () => {
 
   // prevent default form behavior
-  const handleFormSubmit = (e: any) =>{
+  const handleFormSubmit = (e: any) => {
     e.preventDefault();
   };
+
+  // handle file upload click event
+  const handleFileUploadBtn = () => {
+    // get element by id
+    const uploadBtn: any = document.getElementById("item-img-field");
+    uploadBtn.click();
+
+    handleFileUploaded();
+  };
+
+  // collect the file uploaded
+  const handleFileUploaded = () => {
+    const fileInput: any = document.getElementById("item-img-field");
+    const previewElement: any = document.getElementById("img-preview");
+
+    // add event listener to file input element
+    fileInput.addEventListener("change", async () => {
+      previewElement.src = await URL.createObjectURL(fileInput.files[0]);
+    });
+  }
 
   return (
     <div id="add-item">
@@ -49,11 +69,11 @@ const CreateProduct = () => {
             <div className="form-group-2">
               <div className="form-group-1">
                 <label className="label-control" id="image-preview-header"><small>Item Image Preview</small></label>
-                <img src={II} alt="" className="img-preview" id="img-preview" />
+                <img src="" alt="" className="img-preview" id="img-preview" />
               </div>
               <div className="form-group-1">
-                <button className="form-control" id="item-img-button">Select Item Image</button>
-                <input type="file" className="form-control" id="item-img-field" hidden/>
+                <button className="form-control" id="item-img-button" onClick={handleFileUploadBtn}>Select Item Image</button>
+                <input type="file" className="form-control" id="item-img-field" hidden />
               </div>
             </div>
             <div className="form-group-1">
