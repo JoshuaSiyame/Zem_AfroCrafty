@@ -2,25 +2,15 @@ import React from "react";
 import "./Blog.css";
 
 const Blog = () => {
-  // Remove the main nav 2 element from the document
-  const hideMainNav2 = () => {
+  // remove the nav element
+  const removeMainNav2 = () => {
     // get element by id
     const mainNav2: any = document.getElementById("main-nav-2");
-
-    // change display to none
     mainNav2.style.display = "none";
   };
 
-  // prevent reload of page
-  const handleReload = (e: any) =>{
-    e.preventDefault();
-  };
-
-  // call the function for the effect
-  hideMainNav2();
-
   return (
-    <div id="blog" onLoad={handleReload}>
+    <div id="blog" onLoad={removeMainNav2}>
       <div id="blog-container">
         <h3 id="blog-header">Blog</h3>
         <div id="blog-posts">

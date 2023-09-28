@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import "./App.css";
 
 // import made components
-import Products from './Products/Products';
+import Product from './Product/Product';
 import Shop from './Shop/Shop';
 import Accessories from './Accessories/Accessories';
 import CreateProduct from './CreateProduct/CreateProduct';
@@ -35,6 +35,7 @@ const App = () => {
                     <Route path='/profile' element={<Profile />} />
                     <Route path='/checkout' element={<CheckOut />} />
                     <Route path='/shop' element={<Shop />} />
+                    <Route path='/product' element={<Product />} />
                     <Route path='/'>
                         <Route path='/' element={<Shop />} index />
                         <Route path='/accessories' element={<Accessories />} />
