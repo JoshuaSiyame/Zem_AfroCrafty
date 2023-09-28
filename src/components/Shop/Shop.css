@@ -23,6 +23,12 @@
     margin: .5em 0;
 }
 
+/* item card link */
+.item-card-link{
+    color: #415C61;
+    text-decoration: none;
+}
+
 /* item card */
 .item-card {
     border: 1px solid #415C61;
