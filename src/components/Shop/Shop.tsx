@@ -1,13 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./Shop.css";
 
 // import images
 import HB1 from "./hand_bag_1.png";
-import HB2 from "./hand_bag_2.jpg";
 import NO from "./natural_oil.jpg";
 import { NavLink } from 'react-router-dom';
 
 const Shop = () => {
+  // add the main nav 2 element
+  const addMainNav2: any = () => {
+    // get element by id
+    const mainNav2: any = document.getElementById("main-nav-2");
+    
+    // check element presence
+    if (mainNav2) {
+      mainNav2.style.display = "flex";
+    };
+  };
+
+  useEffect(()=>{
+    addMainNav2()
+  },[]);
+
   return (
     <div id="shop">
       <div id='shop-container'>

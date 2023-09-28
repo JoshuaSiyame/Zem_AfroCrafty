@@ -36,14 +36,14 @@ const App = () => {
                     <Route path='/checkout' element={<CheckOut />} />
                     <Route path='/shop' element={<Shop />} />
                     <Route path='/product' element={<Product />} />
-                    <Route path='/'>
-                        <Route path='/' element={<Shop />} index />
-                        <Route path='/accessories' element={<Accessories />} />
-                        <Route path='/create-product' element={<CreateProduct />} />
-                        <Route path='/women' element={<Women />} />
-                        <Route path='/men' element={<Men />} />
-                        <Route path='/go-pro' element={<GoPro />} />
-                        <Route path='/others' element={<Others />} />
+                    <Route path='/products'>
+                        <Route path='/products/' element={<Shop />} index />
+                        <Route path='/products/accessories' element={<Accessories />} />
+                        <Route path='/products/create-product' element={<CreateProduct />} />
+                        <Route path='/products/women' element={<Women />} />
+                        <Route path='/products/men' element={<Men />} />
+                        <Route path='/products/go-pro' element={<GoPro />} />
+                        <Route path='/products/others' element={<Others />} />
                     </Route>
                 </Routes>
                 <Footer />
