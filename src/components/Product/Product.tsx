@@ -35,7 +35,7 @@ const Product = () => {
         </ol>
         <div className='product-item-container'>
           <div className='item-image-container'>
-            <img src={Hb} alt='' className='item-img' />
+            <img src={Hb} alt='' className='product-item-img' />
           </div>
           <div className='item-data-container'>
             <h3 className='product-form-header'>Product Details</h3>

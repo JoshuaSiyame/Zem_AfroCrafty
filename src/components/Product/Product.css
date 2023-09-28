@@ -34,7 +34,13 @@
 .item-image-container {}
 
 /* item img */
-.item-img {}
+.product-item-img {
+    display: block;
+    border: 1px solid #64898C;
+    border-radius: 2px;
+    padding: 1em;
+    width: 100%;
+}
 
 /* item data container */
 .item-data-container {}
@@ -74,7 +80,7 @@
 
 /* product primary btn */
 .product-primary-btn {
-    padding: .4em .4em;
+    padding: .2em .4em;
     margin: 1em 0;
     border: 1px solid #64898C;
     border-radius: 2px;
@@ -116,12 +122,7 @@
     .item-image-container {}
 
     /* item img */
-    .item-img {
-        display: block;
-        border: 1px solid #64898C;
-        border-radius: 2px;
-        padding: 1em;
-    }
+    .product-item-img {}
 
     /* item data container */
     .item-data-container {}
@@ -179,7 +180,7 @@
     .item-image-container {}
 
     /* item img */
-    .item-img {
+    .product-item-img {
         display: block;
         border: 1px solid #64898C;
         border-radius: 2px;
@@ -240,12 +241,7 @@
     .item-image-container {}
 
     /* item img */
-    .item-img {
-        display: block;
-        border: 1px solid #64898C;
-        border-radius: 2px;
-        padding: 1em;
-    }
+    .product-item-img {}
 
     /* item data container */
     .item-data-container {}
@@ -301,12 +297,7 @@
     .item-image-container {}
 
     /* item img */
-    .item-img {
-        display: block;
-        border: 1px solid #64898C;
-        border-radius: 2px;
-        padding: 1em;
-    }
+    .product-item-img {}
 
     /* item data container */
     .item-data-container {}
@@ -362,12 +353,7 @@
     .item-image-container {}
 
     /* item img */
-    .item-img {
-        display: block;
-        border: 1px solid #64898C;
-        border-radius: 2px;
-        padding: 1em;
-    }
+    .product-item-img {}
 
     /* item data container */
     .item-data-container {}
@@ -423,12 +409,7 @@
     .item-image-container {}
 
     /* item img */
-    .item-img {
-        display: block;
-        border: 1px solid #64898C;
-        border-radius: 2px;
-        padding: 1em;
-    }
+    .product-item-img {}
 
     /* item data container */
     .item-data-container {}
