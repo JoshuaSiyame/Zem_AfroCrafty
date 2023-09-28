@@ -3,7 +3,11 @@ import "./Accessories.css";
 
 const Accessories = () => {
   return (
-    <div>Accessories</div>
+    <div id='accessories'>
+      <div id='accessories-container'>
+        <h5>Accessories</h5>
+      </div>
+    </div>
   );
 };
 

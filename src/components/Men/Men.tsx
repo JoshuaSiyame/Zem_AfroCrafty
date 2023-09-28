@@ -3,7 +3,11 @@ import "./Men.css";
 
 const Men = () => {
   return (
-    <div>Men</div>
+    <div id='men'>
+      <div id='men-container'>
+        <h5>Men</h5>
+      </div>
+    </div>
   );
 };
 
