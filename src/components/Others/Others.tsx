@@ -3,7 +3,11 @@ import "./Others.css";
 
 const Others = () => {
   return (
-    <div>Others</div>
+    <div id='others'>
+      <div id='others-container'>
+        <h5>Others</h5>
+      </div>
+    </div>
   );
 };
 

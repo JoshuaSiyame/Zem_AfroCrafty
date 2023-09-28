@@ -3,7 +3,11 @@ import "./GoPro.css";
 
 const GoPro = () => {
   return (
-    <div>GoPro</div>
+    <div id='go-pro'>
+      <div id='go-pro-container'>
+        <h5>GoPro</h5>
+      </div>
+    </div>
   );
 };
 

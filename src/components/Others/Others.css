@@ -1,0 +1,60 @@
+/* General others styles */
+#others{}
+
+/* others container */
+#others-container{}
+
+/* media queries */
+@media screen and (max-width: 320px) {
+    #others {}
+
+    /* go pro container */
+    #others-container {
+        padding: .6em .6em;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+    #others {}
+
+    /* go pro container */
+    #others-container {
+        padding: .8em .8em;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #others {}
+
+    /* go pro container */
+    #others-container {
+        padding: 1em 1em;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #others {}
+
+    /* go pro container */
+    #others-container {
+        padding: 1em 2em;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    #others {}
+
+    /* go pro container */
+    #others-container {
+        padding: 1em 2em;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    #others {}
+
+    /* go pro container */
+    #others-container {
+        padding: 1em 2em;
+    }
+}

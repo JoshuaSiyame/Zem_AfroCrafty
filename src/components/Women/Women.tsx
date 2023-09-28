@@ -3,7 +3,11 @@ import "./Women.css";
 
 const Women = () => {
   return (
-    <div>Women</div>
+    <div id='women'>
+      <div id='women-container'>
+        <h5>Women</h5>
+      </div>
+    </div>
   );
 };
 
