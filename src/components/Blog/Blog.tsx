@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Blog.css";
 
 const Blog = () => {
   // remove the nav element
-  const removeMainNav2 = () => {
+  const removeMainNav2: any = () => {
     // get element by id
     const mainNav2: any = document.getElementById("main-nav-2");
-    mainNav2.style.display = "none";
+    if (mainNav2) {
+      mainNav2.style.display = "none";
+    }
   };
 
+  useEffect(()=>{
+    removeMainNav2()
+  },[]);
+
   return (
-    <div id="blog" onLoad={removeMainNav2}>
+    <div id="blog">
       <div id="blog-container">
         <h3 id="blog-header">Blog</h3>
         <div id="blog-posts">

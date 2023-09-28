@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./CreateProduct.css";
 
 // import image sample for preview
@@ -30,6 +30,19 @@ const CreateProduct = () => {
       previewElement.src = await URL.createObjectURL(fileInput.files[0]);
     });
   }
+
+  // remove the nav element
+  const removeMainNav2: any = () => {
+    // get element by id
+    const mainNav2: any = document.getElementById("main-nav-2");
+    if (mainNav2) {
+      mainNav2.style.display = "none";
+    }
+  };
+
+  useEffect(()=>{
+    removeMainNav2()
+  },[]);
 
   return (
     <div id="add-item">

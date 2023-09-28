@@ -61,7 +61,7 @@ const NavTwo = () => {
               <NavLink to="/shop" className="main-nav-1-item-link">Shop</NavLink>
             </li>
             <li className='main-nav-1-item'>
-              <NavLink to="/create-product" className="main-nav-1-item-link">Add Product</NavLink>
+              <NavLink to="/products/create-product" className="main-nav-1-item-link">Add Product</NavLink>
             </li>
             <li className='main-nav-1-item'>
               <NavLink to="/blog" className="main-nav-1-item-link" id='last-left'>Blog</NavLink>
@@ -75,12 +75,12 @@ const NavTwo = () => {
               </NavLink>
             </li>
             <li className='main-nav-1-item'>
-              <NavLink to="/home" className="main-nav-1-item-link">
+              <NavLink to="/cart" className="main-nav-1-item-link">
                 <BsCart3 className='nav-icon' id='cart-icon' />
               </NavLink>
             </li>
             <li className='main-nav-1-item'>
-              <NavLink to="/home" className="main-nav-1-item-link">
+              <NavLink to="/profile" className="main-nav-1-item-link">
                 <CgProfile className="nav-icon" id="profile-icon" />
               </NavLink>
             </li>
@@ -92,7 +92,7 @@ const NavTwo = () => {
         <h2 id='site-name'>Zem Afrocrafty</h2>
         <ol id='main-nav-2'>
           <li className='main-nav-2-item'>
-            <NavLink to="/" className="main-nav-2-item-link">Shop</NavLink>
+            <NavLink to="/products" className="main-nav-2-item-link">Shop</NavLink>
           </li>
           {/* <li className='main-nav-2-item'>
             <NavLink to="/create-product" className="main-nav-2-item-link">Create Product</NavLink>
