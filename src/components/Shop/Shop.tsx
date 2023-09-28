@@ -28,252 +28,255 @@ const Shop = () => {
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <s style={{ color: "red" }}>
+                <p className='item-price'><small>Tshs: 2500/=</small></p>
+              </s>
+              <p className='item-price'><small>Tshs: 1500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={HB1} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
           <NavLink to="/product" className="item-card-link">
             <div id='' className='item-card'>
               <img src={NO} alt='' className='item-img' />
               <h3 className='item-name'><small>Item name</small></h3>
-              <p className='item-price'><small>Tz: 2500/=</small></p>
+              <p className='item-price'><small>Tshs: 2500/=</small></p>
             </div>
           </NavLink>
         </div>
