@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import "./Cart.css";
 
-const Cart = () => {
+const Cart: React.FC = () => {
   // remove the nav element
   const removeMainNav2: any = () => {
     // get element by id

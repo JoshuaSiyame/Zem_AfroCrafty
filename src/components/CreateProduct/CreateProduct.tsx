@@ -5,7 +5,7 @@ import "./CreateProduct.css";
 // import image sample for preview
 // import II from "./hand_bag_1.png";
 
-const CreateProduct = () => {
+const CreateProduct: React.FC = () => {
 
   // prevent default form behavior
   const handleFormSubmit = (e: any) => {

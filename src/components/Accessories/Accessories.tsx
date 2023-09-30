@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Accessories.css";
 
-const Accessories = () => {
+const Accessories: React.FC = () => {
   return (
     <div id='accessories'>
       <div id='accessories-container'>
