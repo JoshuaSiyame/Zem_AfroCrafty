@@ -18,6 +18,7 @@ const Shop = () => {
     };
   };
 
+  // use effect to call the function on component render
   useEffect(()=>{
     addMainNav2()
   },[]);
@@ -32,8 +33,8 @@ const Shop = () => {
               <option value="">Sort By:</option>
               <option value="latest">Latest</option>
               <option value="old">Old</option>
-              <option value="priceLowHigh"><small>Low - High Price</small></option>
-              <option value="priceHighLow"><small>High - Low Price</small></option>
+              <option value="priceLowHigh">Low - High Price</option>
+              <option value="priceHighLow">High - Low Price</option>
             </select>
           </li>
         </ol>
