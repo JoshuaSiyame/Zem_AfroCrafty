@@ -6,13 +6,14 @@ import "./Product.css";
 import { IoArrowBackCircleOutline } from "react-icons/io5";
 
 // import preview image
-import Hb from "./hand_bag_1.png";
+import HB1 from "./hand_bag_1.png";
+import NO from "./natural_oil.jpg"
 
 // single product component
 const Product: React.FC = () => {
 
   // handle form submit
-  const handleFormSubmit = (e: any) =>{
+  const handleFormSubmit = (e: any) => {
     e.preventDefault();
   };
 
@@ -40,7 +41,7 @@ const Product: React.FC = () => {
         </ol>
         <div className='product-item-container'>
           <div className='item-image-container'>
-            <img src={Hb} alt='' className='product-item-img' />
+            <img src={HB1} alt='' className='product-item-img' />
           </div>
           <div className='item-data-container'>
             <h3 className='product-form-header'>Product Details</h3>
@@ -59,13 +60,131 @@ const Product: React.FC = () => {
               </div>
               <div className='product-form-group'>
                 <label className='product-label-control'>Description</label>
-                <p style={{minHeight: "5em"}} className='product-form-control'>Product details goes here</p>
+                <p style={{ minHeight: "5em" }} className='product-form-control'>Product details goes here</p>
               </div>
               <div className='product-form-group'>
                 <input type='submit' value="Add to Cart" className='product-primary-btn' />
               </div>
+              <div className='product-form-group' >
+                <input type='submit' value="Add to wish list" className='product-primary-btn-2' />
+              </div>
             </form>
           </div>
+        </div>
+        <h3 className='similar-products-header'>Similar Products</h3>
+        <div id='similar-products-container'>
+          <NavLink to="/product" className="similar-product-item-card-link">
+            <div id='' className='similar-product-item-card'>
+              <img src={HB1} alt='' className='similar-product-item-img' />
+              <h3 className='similar-product-item-name'><small>Item name</small></h3>
+              <p className='similar-product-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="similar-product-item-card-link">
+            <div id='' className='similar-product-item-card'>
+              <img src={NO} alt='' className='similar-product-item-img' />
+              <h3 className='similar-product-item-name'><small>Item name</small></h3>
+              <p className='similar-product-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="similar-product-item-card-link">
+            <div id='' className='similar-product-item-card'>
+              <img src={HB1} alt='' className='similar-product-item-img' />
+              <h3 className='similar-product-item-name'><small>Item name</small></h3>
+              <p className='similar-product-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="similar-product-item-card-link">
+            <div id='' className='similar-product-item-card'>
+              <img src={NO} alt='' className='similar-product-item-img' />
+              <h3 className='similar-product-item-name'><small>Item name</small></h3>
+              <p className='similar-product-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="similar-product-item-card-link">
+            <div id='' className='similar-product-item-card'>
+              <img src={HB1} alt='' className='similar-product-item-img' />
+              <h3 className='similar-product-item-name'><small>Item name</small></h3>
+              <p className='similar-product-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="similar-product-item-card-link">
+            <div id='' className='similar-product-item-card'>
+              <img src={NO} alt='' className='similar-product-item-img' />
+              <h3 className='similar-product-item-name'><small>Item name</small></h3>
+              <p className='similar-product-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="similar-product-item-card-link">
+            <div id='' className='similar-product-item-card'>
+              <img src={HB1} alt='' className='similar-product-item-img' />
+              <h3 className='similar-product-item-name'><small>Item name</small></h3>
+              <p className='similar-product-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="similar-product-item-card-link">
+            <div id='' className='similar-product-item-card'>
+              <img src={NO} alt='' className='similar-product-item-img' />
+              <h3 className='similar-product-item-name'><small>Item name</small></h3>
+              <p className='similar-product-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="similar-product-item-card-link">
+            <div id='' className='similar-product-item-card'>
+              <img src={HB1} alt='' className='similar-product-item-img' />
+              <h3 className='similar-product-item-name'><small>Item name</small></h3>
+              <p className='similar-product-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="similar-product-item-card-link">
+            <div id='' className='similar-product-item-card'>
+              <img src={NO} alt='' className='similar-product-item-img' />
+              <h3 className='similar-product-item-name'><small>Item name</small></h3>
+              <p className='similar-product-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="similar-product-item-card-link">
+            <div id='' className='similar-product-item-card'>
+              <img src={HB1} alt='' className='similar-product-item-img' />
+              <h3 className='similar-product-item-name'><small>Item name</small></h3>
+              <p className='similar-product-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="similar-product-item-card-link">
+            <div id='' className='similar-product-item-card'>
+              <img src={NO} alt='' className='similar-product-item-img' />
+              <h3 className='similar-product-item-name'><small>Item name</small></h3>
+              <p className='similar-product-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="similar-product-item-card-link">
+            <div id='' className='similar-product-item-card'>
+              <img src={HB1} alt='' className='similar-product-item-img' />
+              <h3 className='similar-product-item-name'><small>Item name</small></h3>
+              <p className='similar-product-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="similar-product-item-card-link">
+            <div id='' className='similar-product-item-card'>
+              <img src={NO} alt='' className='similar-product-item-img' />
+              <h3 className='similar-product-item-name'><small>Item name</small></h3>
+              <p className='similar-product-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="similar-product-item-card-link">
+            <div id='' className='similar-product-item-card'>
+              <img src={HB1} alt='' className='similar-product-item-img' />
+              <h3 className='similar-product-item-name'><small>Item name</small></h3>
+              <p className='similar-product-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="similar-product-item-card-link">
+            <div id='' className='similar-product-item-card'>
+              <img src={NO} alt='' className='similar-product-item-img' />
+              <h3 className='similar-product-item-name'><small>Item name</small></h3>
+              <p className='similar-product-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
         </div>
       </div>
     </div>
