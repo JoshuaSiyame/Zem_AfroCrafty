@@ -11,14 +11,19 @@ import Hb from "./hand_bag_1.png";
 // single product component
 const Product = () => {
 
+  // handle form submit
+  const handleFormSubmit = (e: any) =>{
+    e.preventDefault();
+  };
+
+  // states to acquire submitted data
+
   // remove the nav element
   const removeMainNav2 = () => {
     // get element by id
     const mainNav2: any = document.getElementById("main-nav-2");
     mainNav2.style.display = "none";
   };
-
-  // call remove mani nav 2 function
 
   return (
     <div id='product' onLoad={removeMainNav2}>
@@ -39,7 +44,7 @@ const Product = () => {
           </div>
           <div className='item-data-container'>
             <h3 className='product-form-header'>Product Details</h3>
-            <form className='product-form'>
+            <form className='product-form' onSubmit={handleFormSubmit}>
               <div className='product-form-group'>
                 <label className='product-label-control'>Product Name</label>
                 <p className='product-form-control'>Back Pack</p>

@@ -70,22 +70,23 @@
 
 /* post-form-control */
 .product-form-control {
-    padding: .2em .4em;
+    padding: .4em .5em;
     font-size: 14px;
     border: 1px solid #64898C;
     border-radius: 2px;
     color: #415C61;
-    background-color: #9ECCCC78;
+    background-color: rgba(158, 204, 204, .1);
 }
 
 /* product primary btn */
 .product-primary-btn {
-    padding: .2em .4em;
+    padding: .4em .5em;
     margin: 1em 0;
     border: 1px solid #64898C;
     border-radius: 2px;
     font-weight: 500;
     color: #415C61;
+    font-size: 14px;
 }
 
 
@@ -128,7 +129,10 @@
     .item-data-container {}
 
     /* product form header */
-    .product-form-header {}
+    .product-form-header {
+        font-size: 18px;
+        margin: .5em 0;
+    }
 
     /* product-form */
     .product-form {}
@@ -143,9 +147,7 @@
     .product-form-control {}
 
     /* product primary btn */
-    .product-primary-btn {
-        padding: .2em .4em;
-    }
+    .product-primary-btn {}
 }
 
 @media (min-width: 321px) and (max-width: 480px) {
@@ -191,7 +193,10 @@
     .item-data-container {}
 
     /* product form header */
-    .product-form-header {}
+    .product-form-header {
+        font-size: 19px;
+        margin: .5em 0;
+    }
 
     /* product-form */
     .product-form {}
@@ -247,7 +252,10 @@
     .item-data-container {}
 
     /* product form header */
-    .product-form-header {}
+    .product-form-header {
+        font-size: 19.5px;
+        margin-bottom: .5em;
+    }
 
     /* product-form */
     .product-form {}
@@ -303,7 +311,10 @@
     .item-data-container {}
 
     /* product form header */
-    .product-form-header {}
+    .product-form-header {
+        font-size: 19.5px;
+        margin-bottom: .5em;
+    }
 
     /* product-form */
     .product-form {}
@@ -359,7 +370,10 @@
     .item-data-container {}
 
     /* product form header */
-    .product-form-header {}
+    .product-form-header {
+        font-size: 20px;
+        margin-bottom: .5em;
+    }
 
     /* product-form */
     .product-form {}
@@ -415,7 +429,10 @@
     .item-data-container {}
 
     /* product form header */
-    .product-form-header {}
+    .product-form-header {
+        font-size: 20px;
+        margin-bottom: .5em;
+    }
 
     /* product-form */
     .product-form {}

@@ -50,18 +50,18 @@ const NavTwo = () => {
     <div id='nav-two'>
       <div id="nav-two-container">
         <div id='main-nav-1-container'>
-          <NavLink to="/" className="main-nav-1-item-link">
+          <NavLink to="/products" className="main-nav-1-item-link">
             <img src={Logo} alt='' id="logo-img" />
           </NavLink>
           <ol id='main-nav-1'>
-            <li className='main-nav-1-item'>
+            {/* <li className='main-nav-1-item'>
               <NavLink to="/" className="main-nav-1-item-link">Home</NavLink>
+            </li> */}
+            <li className='main-nav-1-item'>
+              <NavLink to="/products" className="main-nav-1-item-link">Shop</NavLink>
             </li>
             <li className='main-nav-1-item'>
-              <NavLink to="/shop" className="main-nav-1-item-link">Shop</NavLink>
-            </li>
-            <li className='main-nav-1-item'>
-              <NavLink to="/products/create-product" className="main-nav-1-item-link">Add Product</NavLink>
+              <NavLink to="/create-product" className="main-nav-1-item-link">Add Product</NavLink>
             </li>
             <li className='main-nav-1-item'>
               <NavLink to="/blog" className="main-nav-1-item-link" id='last-left'>Blog</NavLink>
