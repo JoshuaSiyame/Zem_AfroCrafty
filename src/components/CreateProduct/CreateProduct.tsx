@@ -28,7 +28,8 @@ const CreateProduct = () => {
   // function to create the item slug
   const itemSlug = () =>{
       const item_slug = Slug(itemName, {lower: true});
-      console.log(setItemSlugName(item_slug));
+      setItemSlugName(item_slug)
+      // console.log(setItemSlugName(item_slug));
   };
 
   // useEffect to make the slug name, leave it unclose with the [] to make the loop running
