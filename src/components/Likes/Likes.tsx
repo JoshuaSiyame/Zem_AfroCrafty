@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import "./Likes.css";
 
-const Likes = () => {
+const Likes: React.FC = () => {
   // remove the nav element
   const removeMainNav2: any = () => {
     // get element by id

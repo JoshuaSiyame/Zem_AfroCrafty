@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Others.css";
 
-const Others = () => {
+const Others: React.FC = () => {
   return (
     <div id='others'>
       <div id='others-container'>

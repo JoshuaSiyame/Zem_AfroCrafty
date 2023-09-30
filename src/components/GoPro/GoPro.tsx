@@ -1,7 +1,7 @@
 import React from 'react';
 import "./GoPro.css";
 
-const GoPro = () => {
+const GoPro: React.FC = () => {
   return (
     <div id='go-pro'>
       <div id='go-pro-container'>

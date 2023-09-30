@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Men.css";
 
-const Men = () => {
+const Men: React.FC = () => {
   return (
     <div id='men'>
       <div id='men-container'>

@@ -9,7 +9,7 @@ import { IoArrowBackCircleOutline } from "react-icons/io5";
 import Hb from "./hand_bag_1.png";
 
 // single product component
-const Product = () => {
+const Product: React.FC = () => {
 
   // handle form submit
   const handleFormSubmit = (e: any) =>{
