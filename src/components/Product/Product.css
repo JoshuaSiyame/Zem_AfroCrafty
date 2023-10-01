@@ -81,7 +81,7 @@
 /* product primary btn */
 .product-primary-btn {
     padding: .4em .5em;
-    margin: 1em 0;
+    margin: .5em 0 .5em 0;
     border: 1px solid #64898C;
     border-radius: 2px;
     font-weight: 500;
