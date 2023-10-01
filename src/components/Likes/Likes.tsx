@@ -1,5 +1,10 @@
 import React, { useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 import "./Likes.css";
+
+// import images
+import HB1 from "./hand_bag_1.png";
+import NO from "./natural_oil.jpg";
 
 const Likes: React.FC = () => {
   // remove the nav element
@@ -11,14 +16,85 @@ const Likes: React.FC = () => {
     }
   };
 
-  useEffect(()=>{
+  useEffect(() => {
     removeMainNav2()
-  },[]);
+  }, []);
 
   return (
     <div id='likes'>
       <div id='likes-container'>
-        <h5>Likes</h5>
+        <div id='liked-items'>
+          <NavLink to="/product" className="liked-item-card-link">
+            <div id='' className='liked-item-card'>
+              <img src={HB1} alt='' className='liked-item-img' />
+              <h3 className='liked-item-name'><small>Item name</small></h3>
+              <p className='liked-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="liked-item-card-link">
+            <div id='' className='liked-item-card'>
+              <img src={NO} alt='' className='liked-item-img' />
+              <h3 className='liked-item-name'><small>Item name</small></h3>
+              <p className='liked-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="liked-item-card-link">
+            <div id='' className='liked-item-card'>
+              <img src={HB1} alt='' className='liked-item-img' />
+              <h3 className='liked-item-name'><small>Item name</small></h3>
+              <p className='liked-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="liked-item-card-link">
+            <div id='' className='liked-item-card'>
+              <img src={NO} alt='' className='liked-item-img' />
+              <h3 className='liked-item-name'><small>Item name</small></h3>
+              <p className='liked-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="liked-item-card-link">
+            <div id='' className='liked-item-card'>
+              <img src={HB1} alt='' className='liked-item-img' />
+              <h3 className='liked-item-name'><small>Item name</small></h3>
+              <p className='liked-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="liked-item-card-link">
+            <div id='' className='liked-item-card'>
+              <img src={NO} alt='' className='liked-item-img' />
+              <h3 className='liked-item-name'><small>Item name</small></h3>
+              <p className='liked-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="liked-item-card-link">
+            <div id='' className='liked-item-card'>
+              <img src={HB1} alt='' className='liked-item-img' />
+              <h3 className='liked-item-name'><small>Item name</small></h3>
+              <p className='liked-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="liked-item-card-link">
+            <div id='' className='liked-item-card'>
+              <img src={NO} alt='' className='liked-item-img' />
+              <h3 className='liked-item-name'><small>Item name</small></h3>
+              <p className='liked-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="liked-item-card-link">
+            <div id='' className='liked-item-card'>
+              <img src={HB1} alt='' className='liked-item-img' />
+              <h3 className='liked-item-name'><small>Item name</small></h3>
+              <p className='liked-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+          <NavLink to="/product" className="liked-item-card-link">
+            <div id='' className='liked-item-card'>
+              <img src={NO} alt='' className='liked-item-img' />
+              <h3 className='liked-item-name'><small>Item name</small></h3>
+              <p className='liked-item-price'><small>Tshs: 2500/=</small></p>
+            </div>
+          </NavLink>
+        </div>
       </div>
     </div>
   );

@@ -4,6 +4,97 @@
 /* cart container */
 #cart-container {}
 
+/* cart content */
+#cart-content {}
+
+/* shopping-cart */
+#shopping-cart {
+    background-color: #94cccc;
+    padding: 0 1em;
+}
+
+/* shopping cart header list */
+#shopping-cart-header-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid lightslategrey;
+}
+
+/* shopping cart header item */
+.shopping-cart-header-item{
+    list-style: none;
+}
+ 
+/* shopping cart header */
+#shopping-cart-header {
+    font-weight: 500;
+    padding: .8em 0em;
+}
+
+/* cart summary */
+#cart-summary {
+    background-color: lightgray;
+    padding: 0 1em;
+}
+
+/* cart summary header */
+#cart-summary-header {
+    font-weight: 500;
+    border-bottom: 2px solid lightslategrey;
+    padding: 1.2em 0em;
+}
+
+/* cart summary content */
+#cart-summary-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* cart summary content */
+.cart-summary-list-item{
+    list-style: none;
+    margin: 1em 0;
+}
+
+/* check out form */
+#check-out-form{}
+
+/* cart form group */
+.cart-form-group{
+    display: grid;
+}
+
+/* cart label control */
+.cart-label-control{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* delivery means items */
+select{
+    padding: .4em .5em;
+}
+
+/* cart form control */
+.cart-form-control{
+    padding: .4em .5em;
+}
+
+/* cart primary btn */
+.cart-primary-btn{
+    color: #415C61;
+    padding: .4em .5em;
+    border: 1px solid #415C61;
+    border-radius: 3px;
+}
+
+.cart-primary-btn:hover{
+    color: whitesmoke;
+    background-color: #415C61;
+}
+
 /* media queries */
 @media screen and (max-width: 320px) {
     #cart {}
@@ -12,6 +103,21 @@
     #cart-container {
         padding: .6em .6em;
     }
+
+    /* cart content */
+    #cart-content {}
+
+    /* shopping-cart */
+    #shopping-cart {}
+
+    /* shopping cart header */
+    #shopping-cart-header {}
+
+    /* cart summary */
+    #cart-summary {}
+
+    /* cart summary header */
+    #cart-summary-header {}
 }
 
 @media (min-width: 321px) and (max-width: 480px) {
@@ -21,6 +127,21 @@
     #cart-container {
         padding: .8em .8em;
     }
+
+    /* cart content */
+    #cart-content {}
+
+    /* shopping-cart */
+    #shopping-cart {}
+
+    /* shopping cart header */
+    #shopping-cart-header {}
+
+    /* cart summary */
+    #cart-summary {}
+
+    /* cart summary header */
+    #cart-summary-header {}
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -30,6 +151,21 @@
     #cart-container {
         padding: 1em 1em;
     }
+
+    /* cart content */
+    #cart-content {}
+
+    /* shopping-cart */
+    #shopping-cart {}
+
+    /* shopping cart header */
+    #shopping-cart-header {}
+
+    /* cart summary */
+    #cart-summary {}
+
+    /* cart summary header */
+    #cart-summary-header {}
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -39,6 +175,24 @@
     #cart-container {
         padding: 1em 2em;
     }
+
+    /* cart content */
+    #cart-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* shopping-cart */
+    #shopping-cart {}
+
+    /* shopping cart header */
+    #shopping-cart-header {}
+
+    /* cart summary */
+    #cart-summary {}
+
+    /* cart summary header */
+    #cart-summary-header {}
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -48,6 +202,24 @@
     #cart-container {
         padding: 1em 2em;
     }
+
+    /* cart content */
+    #cart-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* shopping-cart */
+    #shopping-cart {}
+
+    /* shopping cart header */
+    #shopping-cart-header {}
+
+    /* cart summary */
+    #cart-summary {}
+
+    /* cart summary header */
+    #cart-summary-header {}
 }
 
 @media screen and (min-width: 1201px) {
@@ -57,4 +229,22 @@
     #cart-container {
         padding: 1em 2em;
     }
+
+    /* cart content */
+    #cart-content {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    /* shopping-cart */
+    #shopping-cart {}
+
+    /* shopping cart header */
+    #shopping-cart-header {}
+
+    /* cart summary */
+    #cart-summary {}
+
+    /* cart summary header */
+    #cart-summary-header {}
 }
