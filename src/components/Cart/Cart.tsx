@@ -16,6 +16,11 @@ const Cart: React.FC = () => {
     removeMainNav2()
   }, []);
 
+  // prevent default form behavior of cart form
+  const handleCartSubmit = (e: React.FormEvent) =>{
+      e.preventDefault();
+  };
+
   return (
     <div id='cart'>
       <div id='cart-container'>
@@ -30,12 +35,14 @@ const Cart: React.FC = () => {
               </li>
             </ol>
             <div id='shopping-cart-content'>
-              <table>
+              <table id='shopping-cart-table'>
                 <thead>
-                  <th>Item name</th>
-                  <th>Quantity</th>
-                  <th>Total</th>
-                  <th>Remove</th>
+                  <tr id='shopping-cart-table-head'>
+                    <th className='shopping-cart-table-column-label'>Item name</th>
+                    <th className='shopping-cart-table-column-label'>Quantity</th>
+                    <th className='shopping-cart-table-column-label'>Total</th>
+                    <th className='shopping-cart-table-column-label'>Remove</th>
+                  </tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -55,7 +62,7 @@ const Cart: React.FC = () => {
                 <li className='cart-summary-list-item'>Items 3</li>
                 <li className='cart-summary-list-item'>Tsh: 14500</li>
               </ol>
-              <form id='check-out-form'>
+              <form id='check-out-form' onSubmit={handleCartSubmit}>
                 <div className='cart-form-group'>
                   <label className='cart-label-control'>Shipping</label>
                   <select name='delivery-means'>
